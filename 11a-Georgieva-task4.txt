@@ -1,0 +1,3 @@
+function [epf1, df1] = task(a)
+  [epf1, df1] = rat(a)
+endfunction

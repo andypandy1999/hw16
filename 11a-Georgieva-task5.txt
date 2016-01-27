@@ -1,0 +1,11 @@
+
+ function [x1, y1] = p (num1, num2, num3)
+   if((num1 < num2) && ((num2-num1) == (num3-num2))
+     x1 = 1;
+     y1 = 0;
+   else
+     x1 = -1;
+     y1 = 1;
+   endif
+   
+ endfunction
